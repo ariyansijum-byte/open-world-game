@@ -1,1 +1,89 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #222;
+}
 
+#game {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#world {
+  position: relative;
+  width: 3000px;
+  height: 3000px;
+  background: #4caf50;
+}
+
+/* Player */
+#player {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: blue;
+  left: 150px;
+  top: 150px;
+}
+
+/* House */
+.house {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: brown;
+  left: 300px;
+  top: 300px;
+}
+
+/* Buildings */
+.building {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background: gray;
+}
+.b1 { left: 600px; top: 200px; }
+.b2 { left: 900px; top: 500px; }
+
+/* Trees */
+.tree {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: darkgreen;
+  border-radius: 50%;
+}
+.t1 { left: 400px; top: 700px; }
+.t2 { left: 700px; top: 900px; }
+
+/* NPC */
+.npc {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: red;
+  left: 500px;
+  top: 500px;
+}
+
+/* Ramp */
+.ramp {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  background: orange;
+  left: 1200px;
+  top: 800px;
+}
+
+/* Car */
+.car {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: black;
+  left: 350px;
+  top: 360px;
+}
